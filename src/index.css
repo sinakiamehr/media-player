@@ -1,0 +1,17 @@
+:root {
+    /* colors */
+    --primary-color: #ffffff;
+    --secondary-color: #f0f0f0;
+    --app-background-color: #333333;
+    --background-color: #222222;
+    --foreground-color: #444444;
+    --highlight-color: #ffcc00;
+
+    /* font sizes */
+    --root-font-size: 16px;
+    font-size: var(--root-font-size);
+
+    /* font-families */
+    --font-headline: "Roboto", sans-serif;
+    --font-family: "Open Sans", sans-serif;
+}
