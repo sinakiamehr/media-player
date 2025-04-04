@@ -1,3 +1,9 @@
+
+![image](https://github.com/user-attachments/assets/8862de2b-c493-43fb-88da-1946b71ddf95)
+
+
+
+
 # Linear Media Player
 
 Welcome to the **Linear Media Player** project! This application is a minimalist audio player designed to play a predefined playlist of audio files, reminiscent of classic media players.
@@ -35,19 +41,19 @@ To set up the project locally, follow these steps:
 
 ## Project Structure
 
-  ```php
-  media-player/
-  ├── src/
-  │   ├── assets/           # Audio files and images
-  │   ├── components/       # Reusable React components
-  │   ├── data/             # Playlist data in JSON format
-  │   ├── App.tsx           # Main application component
-  │   └── main.tsx          # Entry point of the application
-  ├── public/               # Static files
-  ├── .gitignore            # Git ignore file
-  ├── package.json          # Project metadata and dependencies
-  ├── tsconfig.json         # TypeScript configuration
-  └── vite.config.ts        # Vite configuration
+     media-player/
+     ├── src/
+     │   ├── assets/           # Audio files and images
+     │   ├── components/       # Reusable React components
+     │   ├── data/             # Playlist data in JSON format
+     │   ├── App.tsx           # Main application component
+     │   └── main.tsx          # Entry point of the application
+     ├── public/               # Static files
+     ├── .gitignore            # Git ignore file
+     ├── package.json          # Project metadata and dependencies
+     ├── tsconfig.json         # TypeScript configuration
+     └── vite.config.ts        # Vite configuration
 
-
+## License
+This project is licensed under the MIT License. You are free to use, modify, and distribute this software in accordance with the license.
 
