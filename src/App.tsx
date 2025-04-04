@@ -122,7 +122,7 @@ const formatTime: TimeFormatter = (seconds) => {
  * Handles playlist selection
  * @param {number} index - Index of the playlist to select
  */
-const selectPlaylist = (index) => {
+const selectPlaylist = (index: number) => {
   setCurrentPlaylistIndex(index); // Update the current playlist
   setCurrentTrackIndex(0);        // Reset to the first track
   setIsPlaying(false);            // Stop playback when changing playlists
@@ -132,7 +132,7 @@ const selectPlaylist = (index) => {
  * Handles track selection within the current playlist
  * @param {number} index - Index of the track to select
  */
-const selectTrack = (index) => {
+const selectTrack = (index: number) => {
   setCurrentTrackIndex(index); // Update the current track
   setIsPlaying(true);          // Start playing the selected track
 };
