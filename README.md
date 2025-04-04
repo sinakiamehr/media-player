@@ -1,40 +1,53 @@
 # Linear Media Player
 
-Hey, thanks for taking the time to work on this exercise. We're excited to see what you come up with –
-the goal is to create an audio player for playing a predefined playlist of audio files. Think of it
-like a stripped-down version of Spotify or the classic Winamp.
+Welcome to the **Linear Media Player** project! This application is a minimalist audio player designed to play a predefined playlist of audio files, reminiscent of classic media players.
 
-### Getting started
+## Features
 
-Clone this repo which was created _just for you_, make it yours and let us know once the project is complete by pushing
-your commits and replying through email. 
+- **Playlist Playback:** Seamlessly play through a predefined list of audio tracks.
+- **Track Information Display:** View details of the currently playing track, including title, artist, and album.
+- **Playback Controls:** Easily play, pause, skip forward, and skip backward through tracks.
+- **Responsive Design:** Enjoy a user-friendly interface on both desktop and mobile devices.
 
-You can use `npm` to install the dependencies and run the basic React project. Feel free to add any additional libraries 
-or frameworks you need.
+## Getting Started
 
-```bash
-npm install
-npm run dev
-```
+To set up the project locally, follow these steps:
 
-### Requirements
+1. **Clone the Repository:**
 
-We'd like to see a working media player that can play through a playlist of audio files (included), display info on the
-currently playing track and supporting basic functionality like play/pause, next track, etc. Beyond that, feel free to get
-creative with the design and functionality.
+   ```bash
+   git clone https://github.com/sinakiamehr/media-player.git
 
-Plan on spending 2-4 hours to complete this exercise.
+2. **Navigate to the Project Directory:**
 
-Please update this README to include a screenshot of the completed exercise at the top.
+   ```bash
+   git cd media-player
 
-### Playlist data
+3. **Install Dependencies:**
 
-The playlist data is stored in `src/data/playlists.json`. It includes a list of audio files and some associated metadata,
-you can import the json file directly with no need for network requests.
+   ```bash
+   npm install
 
-### Attribution
+4. **Start the Development Server:**
 
-This project includes music from the following albums:
+   ```bash
+   npm run dev
 
-- **"Deep House"** by _Nul Tiel Records_ is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
-- **"Neither and Both"** by _Brylie Christopher Oxley_ is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+## Project Structure
+
+  ```php
+  media-player/
+  ├── src/
+  │   ├── assets/           # Audio files and images
+  │   ├── components/       # Reusable React components
+  │   ├── data/             # Playlist data in JSON format
+  │   ├── App.tsx           # Main application component
+  │   └── main.tsx          # Entry point of the application
+  ├── public/               # Static files
+  ├── .gitignore            # Git ignore file
+  ├── package.json          # Project metadata and dependencies
+  ├── tsconfig.json         # TypeScript configuration
+  └── vite.config.ts        # Vite configuration
+
+
+
